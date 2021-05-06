@@ -1,0 +1,528 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: #696969;
+    background-position: 0 -600px;
+    background-attachment: fixed;
+    font-family:"Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ"," sans-serif";
+}
+.wrap {
+    padding-top: 140px;
+    width: 100%;
+    background-color: #fffacd;
+}
+.clearfix:after {
+		content: "";
+		display: block;
+    clear: both;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+/* ここからナブ */
+
+.nav {
+		width: 100%;
+    position: fixed;
+    z-index: 90;
+    top: 0px;
+    left: auto;
+    background-color: #ffac79;
+    color: #fff;
+}
+
+.nav_left {
+		float: left;
+		background-color:  #ffac79;
+		padding: 15px 0 25px 40px;
+}
+
+.nav_left p {
+		text-align: center;
+		font-size: 13px;
+		line-height: 0.5;
+}
+
+.nav_left a:link {
+		color: #fff;
+}
+
+.nav_left a:visited {
+		color: #fff;
+}
+
+.nav_left a:hover {
+		color: #ff9500;
+}
+
+.nav_left a {
+		text-decoration: none;
+}
+
+.nav_center {
+		float: left;
+		margin-top: 10px;
+		margin-left: 50px;
+}
+
+.nav_center p {
+		text-align: right;
+		line-height: 0;
+		margin-right: 50px;
+		font-size: 14px;
+}
+
+.nav_right {
+    float: right;
+    padding: 5px;
+}
+
+.nav_sns {
+    width: 125px;
+    margin: auto;
+    padding: 5px;
+}
+
+.sns_link {
+    float: left;
+    position: relative;
+}
+
+.sns_link a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sns_link a:hover {
+    background-color:#ff9500;
+    opacity: 0.7;
+}
+
+.instagram a {
+    border-radius: 13px;
+}
+
+.twitter a {
+    border-radius: 40px;
+}
+
+
+.sns_link:nth-child(1) {
+    margin-right: 25px;
+}
+
+.nav_tel {
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+
+.bar li {
+    width: 120px;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.link a:link {
+		color: #fff;
+} 
+
+.link a:visited {
+		color: #fff;
+} 
+
+.link a:hover {
+        color: #ff9500;
+}
+/* ここからメイン */
+
+.ttl {
+    float: left;
+}
+
+.ttl_1 {
+    width: 250px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.ttl_2 {
+    width: 250px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+/* select */
+
+.select {
+    float: right;
+    margin-top: 30px;
+}
+
+.select li {
+    float: left;
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.select a:link {
+    color: #696969;
+}
+
+.select a:visited {
+    color: #696969;
+}
+
+.select a:hover {
+    color: #ccc;
+}
+
+   /* モーニング */
+   
+.main {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    padding: 50px 70px 50px 70px;
+    box-shadow: 0 0 2px 2px #dcdcdc;
+}
+   
+h2 {
+    font-size: 30px;
+    width: 500px;
+    margin: 50px 0 30px 150px;
+    padding: 0 50px;
+    border-bottom: solid 5px #696969;
+    clear: both;
+    line-height: 1.2;
+}
+
+#lunch , #cafe {
+    margin-top: 150px;
+}
+
+.span_01 {
+		color: #ff8c00;
+		font-size: 60px;
+}
+
+.span_02 {
+		color: #ffd500;
+        font-size: 60px;
+}
+
+
+.span_03 {
+		color: #ff6347;
+		font-size: 60px;
+}
+
+
+.cnt {
+    background-image: url(img/drink/coffee_4.jpg);
+    background-size: 900px 600px;
+    width: 900px;
+    height: 600px;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+}
+
+.cnt p {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #fff;
+    position: absolute;
+    z-index: 20;
+    top: 50px;
+    left: 50px;
+    height: 300px;
+    padding: 100px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.tejyunn {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* ここからドリンク */
+
+.drink_box {
+		float: left;
+		width: 50%;
+}
+
+
+.drink p {
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+}
+
+.drink ul {
+		text-align: center;
+		list-style-type: none;
+}
+
+.drink li {
+		margin: 5px 0;
+}
+
+/* ここからパン */
+
+.drink ,.bread {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #dcdcdc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.breadname {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+/* ここからランチ */
+
+.cnt_2 {
+    background-image: url(img//cafe_top_06.jpg);
+    background-size: 900px 600px;
+    width: 900px;
+    height: 600px;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+}
+
+.cnt_2 p {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #fff;
+    position: absolute;
+    z-index: 20;
+    top: 50px;
+    left: 50px;
+    height: 400px;
+    padding:  50px 70px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.lunchmain {
+		width: 90%;
+		margin: auto;
+    padding: 40px 20px 20px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #dcdcdc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainname {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.viking {
+    text-align: center;
+    background-color: #fff;
+    width: 90%;
+    padding: 50px 20px;
+    margin: auto;
+    box-shadow: 0 0 2px 2px #dcdcdc;
+        
+}
+
+
+/* ここからカフェタイム */
+
+.cnt_3 {
+    background-image: url(img/menu/cafetime.jpg);
+    background-size: 900px 600px;
+    width: 900px;
+    height: 600px;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+}
+
+.cnt_3 p {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #fff;
+    position: absolute;
+    z-index: 20;
+    top: 50px;
+    left: 50px;
+    height: 300px;
+    padding: 100px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+
+
+/* ここからフッター */
+
+.footer {
+    width: 100%;
+    background-color: #ffac79;
+    padding: 40px 0 20px 0;
+    margin-top: 50px;
+}
+
+.margin {
+    width: 700px;
+    margin: auto;
+}
+
+.footer_l {
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+    color: #fff;
+}
+
+.footer_tel p:nth-child(2) {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer_address p:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.footer_address a:link {
+    color: #fff;
+}
+
+.footer_address a:visited {
+    color: #fff;
+}
+
+.footer_address a:hover {
+    color: #ff9500;
+}
+
+
+table {
+    width: 350px;
+    float: left;
+    color: #fff;
+}
+
+th {
+    width: 100px;
+    padding: 10px 0;
+    width: 180px;
+}
+
+td {
+    width: 250px;
+}
+
+.kesu {
+		visibility: hidden;
+}
+
+.sns {
+		width: 200px;
+		margin: 20px auto 25px auto;
+}
+
+.sns p {
+		float: left;
+		width: 50px;
+		margin: 0 25px;
+}
+
+.sns a:hover {
+		opacity: 0.7;
+}
+
+.footer_nav {
+		width: 603px;
+		margin: 0 auto 10px auto;
+}
+
+.link_2 {
+    list-style-type: none;
+    float: left;
+    width: 150px;
+    border-right: solid 1px #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.link_2:nth-child(4) {
+		border-right: none;
+}
+
+.link_2 a:link {
+		color: #fff;
+} 
+
+.link_2 a:visited {
+		color: #fff;
+}
+
+.footer_address a:link {
+    color: #fff;
+}
+
+.link_2 a:hover {
+		color: #ff9500;
+}
+
+.link_2 a {
+		text-decoration: none;
+}
+
+
+.copy {
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+/* トップに戻るボタン */
+
+.btn img {
+		position: fixed;
+		right: 10px;
+		bottom: 10px;
+}
